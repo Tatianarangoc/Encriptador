@@ -1,0 +1,172 @@
+
+html {
+    box-sizing: border-box;
+    background: #E5E5E5;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+main{
+    display: flex;
+   
+}
+.logo{
+    position: absolute;
+    margin-top: 2%;
+    height: 48px;
+    left: 44px;
+    top: 0px;
+}
+
+.text-area1{
+    margin: 90px;
+    padding: 24px;
+    display: flex;
+    float:left;
+    color:#0A3871;
+    font-size: 20px;
+    border:none;
+    background: #E5E5E5;
+}
+.recomendacion{
+    color: #495057;
+    font-size: 12px;
+    padding: 5px 90px;
+    
+}
+
+.rectangulo{
+    position: absolute;   
+    width: 100%;
+    max-width: 25rem;
+    height: 600px;
+    padding: 4rem;
+    margin-top: 30px;
+    justify-items: center;
+    margin-left: 200px;
+    text-align: center;
+    border-radius: 1rem;
+    background: #FFFFFF; /* White */
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08); /* shadow */
+
+}
+.rectangulo p{
+    position:absolute;
+    top:500px;
+    left: 10%;
+    font-weight: 700;
+    font-size: 24px;
+    color: #343A40;
+  
+   
+    
+}
+.rectangulo h6{
+    font-size: 16px;
+line-height: 150%;
+position: absolute;
+top: 450px;
+left: 10%;
+}
+.text-area2{
+   
+    position: absolute;
+    top: 300px;
+    width: 100%;
+    left: 0px;
+    height: 200px;
+}
+#myOutput{
+    background-color: transparent;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+}
+.encriptar{
+    background: #0A3871;
+    height: 67px;
+    width: 200px;
+    border-radius: 24px; 
+    margin-top: 5%;
+    margin-left: 12%;
+    cursor: pointer;
+     transition: 1s all;
+    
+}
+.desencriptar{
+     height: 67px;
+    width: 200px;
+    margin-top: 5%;
+    margin-left: 5%;
+    border: 1px solid #0A3871; 
+    border-radius: 24px;
+    background: #D8DFE8;
+    cursor: pointer;
+     transition: 1s all;
+}   
+
+
+
+
+
+.copiar{
+    position: absolute;
+    margin-top: 650px;
+    margin-left: 200px;
+     width: 20%;
+     height: 67px;
+     padding: 0 32px;
+     border: 2px solid #0A3871; 
+     border-radius: 24px;
+     color: #0A3871; 
+     cursor: pointer;
+     transition: 1s all;
+
+}
+.inverso{
+    position: absolute;
+    margin-top: 670px;
+    margin-left: 100px;
+}
+
+
+footer {
+    margin-top: 5rem;
+    
+    margin-left: 5%;
+}
+
+
+@media (max-width: 770px) {
+    .text-area1{
+        width:60%;
+        float:auto;
+    }
+    .rectangulo{
+        position: absolute;
+        width: 40%;
+        left: 180px;
+      
+        margin-left: 260px;
+     }
+     #rectangulo-imagen{
+        width: 100%;
+    }
+    .botones{
+        position: absolute;
+       top: 475px;
+        width: 300px; float: left;
+    }
+    .copiar{
+        width: 100px;
+        margin-left: 1px;
+
+    }
+    
+  }
