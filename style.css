@@ -99,6 +99,9 @@ left: 10%;
      transition: 1s all;
     
 }
+.muneco{
+    width: 200px;
+}
 .desencriptar{
      height: 67px;
     width: 200px;
